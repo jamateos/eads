@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: pumba-client
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: ubuntu-client
+    spec:
+      containers:
+      - name: client
+        image: ubuntu:latest
+        ports:
+        - containerPort: 8081
+        command: [ "/bin/bash", "-c", "--" ]
+        args: [ "apt-get update; apt-get install -y iperf net-tools; while true; do sleep 30; done;" ]

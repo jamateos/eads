@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: sleep
+  labels:
+    tugbot-kubernetes-events: ReplicaSet.SuccessfulCreate
+spec:
+  template:
+    metadata:
+      name: sleep 
+    spec:
+      containers:
+      - name: sleep
+        image: perl
+        command: ["sh",  "-c", "sleep 10"]
+      restartPolicy: Never
+

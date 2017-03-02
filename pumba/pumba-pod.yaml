@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pumba-pod
+
+spec:
+  containers:
+  - image: gaiaadm/pumba:latest
+    name: pumba
+    command: [ "/bin/sh", "-c", "--" ]
+    args: [ "while true; do sleep 30; done;" ]
+               
+    volumeMounts:
+    - mountPath: /var/run/docker.sock
+      name: pumba-volume
+      
+  volumes:
+  - name: pumba-volume
+    hostPath:
+      path: /var/run/docker.sock
