@@ -9,6 +9,7 @@ Estos ficheros se han dividido en las siguientes carpetas:
 2. Pumba: Contiene los ficheros utilizados para desplegar pumba, la aplicación cliente y la aplicación servidor con minikube.
 3. Locust: Contiene el fichero de ejemplo utilizado para realizar pruebas sobre la aplicación de ejemplo.
 4. Selenium: Contiene el fichero de ejemplo de prueba con Selenium.
+5. Swarm: Contiene un script para desplegar un cluster de swarm con registry de forma local. 
 
 Para más información acerca de las herramientas utilizadas utiliza los siguientes enlaces:
 
