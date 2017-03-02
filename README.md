@@ -10,9 +10,9 @@ Estos ficheros se han dividido en las siguientes carpetas:
 3. Locust: Contiene el fichero de ejemplo utilizado para realizar pruebas sobre la aplicación de ejemplo.
 4. Selenium: Contiene el fichero de ejemplo de prueba con Selenium.
 
-Para más información acerca de las herramientas utilizadas utilice los siguientes enlaces:
+Para más información acerca de las herramientas utilizadas utiliza los siguientes enlaces:
 
-[Tugbot](https://github.com/gaia-docker/tugbot).
-[Pumba](https://github.com/gaia-adm/pumba).
-[Docker Locust](https://github.com/ryandub/docker-locust).
-[Docker Selenium](https://github.com/SeleniumHQ/docker-selenium).
+- [Tugbot](https://github.com/gaia-docker/tugbot).
+- [Pumba](https://github.com/gaia-adm/pumba).
+- [Docker Locust](https://github.com/ryandub/docker-locust).
+- [Docker Selenium](https://github.com/SeleniumHQ/docker-selenium).
