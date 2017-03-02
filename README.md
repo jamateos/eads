@@ -5,9 +5,9 @@ del curso de EADS impartido por la UPM.
 
 Estos ficheros se han dividido en las siguientes carpetas:
 
-1. Tugbot: Contiene tanto el fichero Docker como el fichero yaml utilizados para desplegar la aplicación monitorizada por tugbot.
-2. Pumba: Contiene los ficheros utilizados para desplegar pumba, la aplicación cliente y la aplicación servidor con minikube.
-3. Locust: Contiene el fichero de ejemplo utilizado para realizar pruebas sobre la aplicación de ejemplo.
+1. Tugbot: Ficheros Docker y Yaml utilizados para desplegar la aplicación monitorizada por tugbot.
+2. Pumba: Ficheros utilizados para desplegar pumba, el cliente y el servidor con minikube.
+3. Locust: Fichero de ejemplo utilizado para realizar pruebas sobre la aplicación de ejemplo.
 4. Selenium: Contiene el fichero de ejemplo de prueba con Selenium.
 5. Swarm: Contiene un script para desplegar un cluster de swarm con registry de forma local. 
 
