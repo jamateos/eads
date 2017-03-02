@@ -12,7 +12,7 @@ Estos ficheros se han dividido en las siguientes carpetas:
 
 Para más información acerca de las herramientas utilizadas utilice los siguientes enlaces:
 
-[Tugbot](https://github.com/gaia-docker/tugbot)
-[Pumba](https://github.com/gaia-adm/pumba)
-[Docker Locust](https://github.com/ryandub/docker-locust)
-[Docker Selenium](https://github.com/SeleniumHQ/docker-selenium)
+[Tugbot](https://github.com/gaia-docker/tugbot).
+[Pumba](https://github.com/gaia-adm/pumba).
+[Docker Locust](https://github.com/ryandub/docker-locust).
+[Docker Selenium](https://github.com/SeleniumHQ/docker-selenium).
