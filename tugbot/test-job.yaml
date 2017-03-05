@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: sleep
-        image: perl
-        command: ["sh",  "-c", "sleep 10"]
+        image: selenium
+        command: ["sh",  "-c", "python /src/example.py"]
       restartPolicy: Never
 
