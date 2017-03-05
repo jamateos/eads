@@ -1,17 +1,16 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: sleep
+  name: selenium
   labels:
     tugbot-kubernetes-events: ReplicaSet.SuccessfulCreate
 spec:
   template:
     metadata:
-      name: sleep 
+      name: selenium
     spec:
       containers:
-      - name: sleep
-        image: selenium
-        command: ["sh",  "-c", "python /src/example.py"]
+      - name: selenium-tests
+        image: wayfactory/selenium-eads:latest
+        command: [ "bash", "-c", "sudo /bin/bash /src/prepare-container.sh; xvfb-run python /src/example.py;" ]
       restartPolicy: Never
-
